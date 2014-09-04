@@ -11,6 +11,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            ConsoleApplication2.Dummy dummy = new ConsoleApplication2.Dummy();
+
             while(true)
             { 
                 Console.WriteLine("Test 1");
