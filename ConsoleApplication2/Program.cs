@@ -11,8 +11,11 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Test 1");
-            Thread.Sleep(10000);
+            while(true)
+            { 
+                Console.WriteLine("Test 2");
+                Thread.Sleep(10000);
+            }
         }
     }
 }
