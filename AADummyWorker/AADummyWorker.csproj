@@ -47,20 +47,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ConsoleApplication1\ConsoleApplication1.csproj">
-      <Project>{5f1c7a84-a81f-4fbd-8594-a46bf5bbfa32}</Project>
-      <Name>ConsoleApplication1</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ConsoleApplication2\ConsoleApplication2.csproj">
-      <Project>{aa693818-7062-4c6f-bc58-7f7bab5a5fb5}</Project>
-      <Name>ConsoleApplication2</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>md ..\ConsoleApplication1
-md ..\ConsoleApplication2</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
